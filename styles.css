@@ -3,8 +3,11 @@ html, body {
     padding: 0;
     font-family: Arial, sans-serif;
     font-size: 20px;
-    background: #222f3e;
     color: #c8d6e5;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.65)), url(./images/coding.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -53,4 +56,11 @@ button:hover {
     background: #00d2d3;
     color: black;
     border: 3px solid #00d2d3;
+}
+
+.content {
+    padding: 1rem 2rem;
+    background: #222f3e;
+    max-width: 900px;
+    margin: 0 auto;
 }
